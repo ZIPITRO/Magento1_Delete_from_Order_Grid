@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+        <models>
+            <zwagermanit_gridcontrole>
+                <class>ZwagermanIT_GridControle_Model</class>
+            </zwagermanit_gridcontrole>
+        </models>
+
+        <helpers>
+            <zwagermanit_gridcontrole>
+                <class>ZwagermanIT_GridControle_Helper</class>
+            </zwagermanit_gridcontrole>
+        </helpers>
+    </global>
+
+    <adminhtml>
+    <events>
+        <adminhtml_block_html_before>
+            <observers>
+                <zwagermanit_gridcontrole_filter_column>
+                    <type>singleton</type>
+                    <class>zwagermanit_gridcontrole/observer</class>
+                    <method>orderGridFilterColumn</method>
+                </zwagermanit_gridcontrole_filter_column>
+            </observers>
+        </adminhtml_block_html_before>
+    </events>
+</adminhtml>
+</config>
