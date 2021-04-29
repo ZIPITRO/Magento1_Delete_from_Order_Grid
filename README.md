@@ -5,7 +5,7 @@ Another smallll extension for Magento 1, to keep it clean we don't have a gui, c
 Sorry in this initial release the columns to remove from the sales grid are mentioned in the observer file, but cleaner
 and faster than his I can not make it.
 
-If you find it useful, please send me a little bitcoin here : https://zwagerman.bitcoinwallet.com/
+If you find it useful, please like :-)
 
 Thanks!
 
